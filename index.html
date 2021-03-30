@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simple Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/slider-style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-22.0.6.mini.js" type="text/javascript"></script>
+    <script src="js/slider-script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <span>12</span><i class="fa fa-shopping-cart"></i><a href="#">My Account</a><input type="search" placeholder="Search..">
+        </div>
+    </header>
+
+    <nav class="nav">
+        <h1>A Big Title</h1>
+        <ul>
+            <li>Home</li>
+            <li>Event</li>
+            <li>Accesories</li>
+            <li>Apparel</li>
+            <li>Featured Items</li>
+        </ul>
+
+        <select class="custom-dropdown" style="-webkit-appearance: none; -moz-appearance: none; border: 0 !important; color: #000; 
+            -webkit-border-radius: 5px; border-radius: 5px; font-size: 14px; padding: 10px; width: 150px; cursor: pointer; 
+            background: #bfbfbf url('http://www.kevinfremon.com/wp-content/uploads/2013/11/drop-down-arrow.png') no-repeat right center; background-size: 40px 37px;">
+            <option>Home</option>
+            <option>Event</option>
+            <option>Accesories</option>
+            <option>Apparel</option>
+            <option>Featured Items</option>
+        </select>
+    </nav>
+
+    <div class="clear"></div>
+    <!--gallery-->
+    <div class="gallery">
+        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            </div>
+            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                <div data-p="225.00">
+                    <img data-u="image" src="img/red.jpg" />
+                    <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:50px;color:#ffffff;line-height:60px;">
+                        TOUCH SWIPE SLIDER
+                    </div>
+                    <div style="position:absolute;top:300px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:#ffffff;line-height:38px;">
+                        Build your slider with anything, includes image, content, text, html, photo, picture
+                    </div>
+                    <div data-u="caption" data-t="0" style="position:absolute;top:120px;left:650px;width:470px;height:220px;z-index:0;">
+                        <img style="position:absolute;top:0px;left:0px;width:470px;height:220px;z-index:0;" src="img/c-phone-horizontal.png" />
+                        <div style="position:absolute;top:4px;left:45px;width:379px;height:213px;z-index:0; overflow: hidden;">
+                            <img data-u="caption" data-t="1" style="position:absolute;top:0px;left:0px;width:379px;height:213px;z-index:0;" src="img/c-slide-1.jpg"
+                            />
+                            <img data-u="caption" data-t="2" style="position:absolute;top:0px;left:379px;width:379px;height:213px;z-index:0;" src="img/c-slide-3.jpg"
+                            />
+                        </div>
+                        <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;z-index:0;" src="img/c-navigator-horizontal.png"
+                        />
+                        <img data-u="caption" data-t="3" style="position:absolute;top:740px;left:1600px;width:257px;height:300px;z-index:0;" src="img/c-finger-pointing.png"
+                        />
+                    </div>
+                </div>
+                <div data-p="225.00" style="display: none;">
+                    <img data-u="image" src="img/purple.jpg" />
+                </div>
+                <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+                <div data-p="225.00" data-po="80% 55%" style="display: none;">
+                    <img data-u="image" src="img/blue.jpg" />
+                </div>
+            </div>
+            <!-- Bullet Navigator -->
+            <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                <!-- bullet navigator item prototype -->
+                <div data-u="prototype" style="width:16px;height:16px;"></div>
+            </div>
+            <!-- Arrow Navigator -->
+            <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+            <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+        </div>
+    </div>
+    <!--gallery-->
+
+    <div class="content">
+        <h2>Intro Copy Headline</h2>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>
+
+    <a href="#" class="wrapper">
+        <div class="wapper-border">
+            <div>
+                <image src="img/001.jpg">
+            </div>
+            <h4>Item Title</h4>
+            <p>Item Category</p>
+            <p>$88.00</p>
+        </div>
+    </a>
+    <a href="#"  class="wrapper">
+        <div class="wapper-border">
+            <div>
+                <image src="img/002.jpg">
+            </div>
+            <h4>Item Title</h4>
+            <p>Item Category</p>
+            <p>$88.00</p>
+        </div>
+    </a>
+    <a href="#"  class="wrapper">
+        <div class="wapper-border">
+            <div>
+                <image src="img/003.jpg">
+            </div>
+            <h4>Item Title</h4>
+            <p>Item Category</p>
+            <p>$88.00</p>
+        </div>
+    </a>
+    <a href="#"  class="wrapper">
+        <div class="wapper-border">
+            <div>
+                <image src="img/004.jpg">
+            </div>
+            <h4>Item Title</h4>
+            <p>Item Category</p>
+            <p>$88.00</p>
+        </div>
+    </a>
+
+    <div class="clear"></div>
+
+    <footer>
+        <div class="links">
+            <div class="footer-block">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Event</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="announcements">
+            <div class="footer-block">
+                <h3>Announcements / Promoted Content</h3>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                    including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </div>
+        <div class="coming-soon">
+            <div class="footer-block">
+                <h3>Coming Soon</h3>
+                <image src="img/coming-soon.jpg">
+            </div>
+        </div>
+    </footer>
+
+    <div class="copy-rights">
+        &copy;2021 All Rights Reserved. 
+    </div>
+</body>
+
+</html>
